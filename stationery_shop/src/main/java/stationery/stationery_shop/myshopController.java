@@ -50,6 +50,7 @@ public class myshopController {
 		}
 	}
 	
+	@SuppressWarnings("resource")
 	public static void fileReader() {
 		try {
 			int data;

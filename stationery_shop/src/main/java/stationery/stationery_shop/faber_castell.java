@@ -1,12 +1,21 @@
 package stationery.stationery_shop;
 
-public class faber_castell implements Store {
+public class faber_castell implements Store{
+
 	private int price;
 	private String color;
 	private String brand;
-	public faber_castell(String color2, int price2, String brand2) {
-		// TODO Auto-generated constructor stub
+	
+	public faber_castell() {
+		this.price = price;
+		this.color = color;
+		this.brand = "faber_castell";
 	}
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	public int getPrice() {
 		return price;
 	}
@@ -25,14 +34,6 @@ public class faber_castell implements Store {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	
-	public void elephant() {
-		setColor("blue");
-		setPrice(15);
-		setBrand("Faber castell");
-	}
-	public void draw() {
-		// TODO Auto-generated method stub
-		
-	}
+
+
 }

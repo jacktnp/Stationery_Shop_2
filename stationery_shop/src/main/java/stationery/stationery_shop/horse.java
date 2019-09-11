@@ -1,9 +1,21 @@
 package stationery.stationery_shop;
 
-public class horse implements Store {
+public class horse implements Store{
+
 	private int price;
 	private String color;
 	private String brand;
+	
+	public horse() {
+		this.price = price;
+		this.color = color;
+		this.brand = "horse";
+	}
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	public int getPrice() {
 		return price;
 	}
@@ -22,14 +34,6 @@ public class horse implements Store {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	
-	public horse(int price2, String color2, String brand2) {
-		setColor("black");
-		setPrice(10);
-		setBrand("Horse");
-	}
-	public void draw() {
-		// TODO Auto-generated method stub
-		
-	}
+
+
 }

@@ -1,9 +1,21 @@
 package stationery.stationery_shop;
 
-public class sakura implements Store {
+public class sakura implements Store{
+
 	private int price;
 	private String color;
 	private String brand;
+	
+	public sakura() {
+		this.price = price;
+		this.color = color;
+		this.brand = "sakura";
+	}
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	public int getPrice() {
 		return price;
 	}
@@ -22,14 +34,6 @@ public class sakura implements Store {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	
-	public sakura() {
-		setColor("pink");
-		setPrice(25);
-		setBrand("Sakura");
-	}
-	public void draw() {
-		// TODO Auto-generated method stub
-		
-	}
+
+
 }
